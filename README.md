@@ -1,4 +1,4 @@
-# tt2020-was-funkt-denn-da
+# was_funkt_denn_da
 
 https://github.com/merbanan/rtl_433/blob/master/src/devices/kedsum.c
 
@@ -19,7 +19,6 @@ temp = (low + mid * 16 + hi * 256 - 900) * 0.1
 hum = low + high * 16
 
 
-
 rtl_433 output:
 model      : Kedsum Temperature & Humidity Sensor   ID        : 154
 Channel    : 2            Battery   : LOW           Flags2    : 8
@@ -30,4 +29,4 @@ Temperature: 23.61 C      Humidity  : 53 %          Integrity : CRC
 
 # installation
 
-pip install crccheck# was_funkt_denn_da
+pip install crccheck

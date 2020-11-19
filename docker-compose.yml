@@ -1,0 +1,12 @@
+version: "2.4"
+
+services:
+
+  revealmd:
+    image: webpronl/reveal-md:latest
+    ports:
+      - "127.0.0.1:1948:1948"
+    volumes:
+      - ${PWD}/slides:/slides
+    command: slides.md --theme theme.css --static-dirs=assets -w
+

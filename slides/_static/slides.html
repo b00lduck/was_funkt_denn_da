@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="_assets/theme.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+<div id="header-footer">
+  <p class="slide-footer"><img src="images/light.svg" height="40" width="200"><br>tarent solutions GmbH<br>Daniel Zerlett</p>
+</div>
+</script></section><section  data-markdown><script type="text/template">
+# Kein Backup, kein Mitleid!
+
+<img src="./assets/mitleid.jpg" height="40" width="200">
+
+Beyond "write only memory"
+</script></section><section  data-markdown><script type="text/template">
+## Schutz vor Datenverlust
+
+  * ärgerlich
+  * teuer
+  * existenzbedrohend
+</script></section><section ><section data-markdown><script type="text/template">
+## Backup-Typen
+
+  * Image
+  * Dateibasiert
+  * Anwendungsspezifisch
+</script></section><section data-markdown><script type="text/template">
+## RAID ist kein Backup
+
+"Ich brauch kein Backup, ich hab' RAID1 auf dem NAS!"
+
+ * Backup schützt Daten vor:
+    * Versehentlichem löschen
+    * Malwarebefall (z.B. Verschlüsselungstrojaner)
+    * Zerstörung des Servers
+
+ * RAID zahlt ein auf:
+    * IOPS
+    * Durchsatz
+    * Verfügbarkeit
+    * Wartbarkeit
+</script></section></section><section  data-markdown><script type="text/template">
+## Speichermedien
+
+* File-Storage (Netzwerk/Cloud)
+* Lokale Festplatte
+* Bandlaufwerke
+</script></section><section ><section data-markdown><script type="text/template">
+## Versionierung von Backups
+</script></section><section data-markdown><script type="text/template">
+* Full
+</script></section><section data-markdown><script type="text/template">
+* Incremental
+</script></section><section data-markdown><script type="text/template">
+* Differential
+
+auch:
+* Kompression
+* Deduplikation
+</script></section></section><section  data-markdown><script type="text/template">
+## Filesystem-Snapshots
+
+"Copy on write"
+
+* :) BTRFS
+* :) NTFS
+* :) ZFS
+
+* :( FAT
+* :( ext4
+
+</script></section><section  data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template">
+## Versionsverwaltung
+
+ * FIFO
+ * Generationenprinzip
+ * Incremental forever
+</script></section><section  data-markdown><script type="text/template">
+## Redundanz schaffen
+
+"Daten, die nicht mindestens drei mal abgespeichert sind, existieren nicht."
+</script></section><section  data-markdown><script type="text/template">
+## Brisanz von Datensicherungen
+
+ * Datenschutz
+ * Gesetzliche Vorgaben (z.B. Revisionssicherheit)
+ * Gefahr des Datendiebstahls
+</script></section><section  data-markdown><script type="text/template">
+## Rücksicherungstests
+
+ * Wie lange
+ * Sind die Daten korrekt
+ * Anwendung zufrieden?
+</script></section><section  data-markdown><script type="text/template">
+## Klassifizierung von Daten
+
+ * Maschinell wiederherstellbare Daten
+ * Manuell wiederherstellbare Daten
+ * Unersetzliche Daten
+ * Wert
+ * Änderungshäufigkeit
+</script></section><section  data-markdown><script type="text/template">
+## Backup-Strategie erstellen
+
+Die optimale Datensicherungsstrategie ist von vielen Faktoren abhängig und daher in jedem Einzelfall neu zu ermitteln!
+
+ * Wie die Datensicherung zu erfolgen hat
+ * Wer für die Datensicherung verantwortlich ist
+ * Wann Datensicherungen durchgeführt werden
+ * Welche Daten gesichert werden sollen
+ * Welches Speichermedium zu verwenden ist
+ * benötigten Speicherplatz abschätzen (Schwierigkeit deduplizierung)
+ * Wo die Datensicherung sicher aufbewahrt wird
+ * Wie die Datensicherung vor Datendiebstahl zu sichern ist (z.B. Verschlüsselung)
+ * Wie lange Datensicherungen aufzubewahren sind (Datenschutzthema)
+ * Wann und wie Datensicherungen auf ihre Wiederherstellbarkeit überprüft werden
+</script></section><section  data-markdown><script type="text/template"> 
+## Umsetzung
+
+ * Beispiel an "borg"
+
+<br>
+
+<iframe src="http://localhost:42000?u=trainer&p=trainer">
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"transition":"fade"}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
