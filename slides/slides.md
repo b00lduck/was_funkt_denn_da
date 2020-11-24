@@ -74,22 +74,120 @@ revealOptions:
 
 ---
 
-# Empfang
+# Hardware
+
+Welche Geräte/Ausrüstung brauche ich um diese Signale empfangen zu können
+
+#### ❓❓❓
 
 ----
 
-## Hardware
+## rtl-sdr
 
-  * rtl-sdr
-  * hackrf one
-  * Antenne
+<img src="images/rtl_sdr_lowcost.jpg">
+
+  * ca. 25€
+  * max. Bandbreite 2.4MS/s
+  * RX 24MHz bis 1766MHz
 
 ----
+
+<img src="images/rtl_sdr_premium.jpg">
+
+  * ca. 40€
+  * max. Bandbreite 3.2MS/s
+  * RX 24MHz bis 2.2GHz mit Lücke bei ca. 1GHz
+
+----
+
+## Antennen
+
+<img src="images/433MHz_dipole.jpg"><br>
+  
+  * Eigenbau 433 MHz Dipol
+
+----
+
+## Antennen
+
+<img src="images/1090MHz_groundplane.jpg" height="600px"><br>
+
+  * Eigenbau 1090 MHz Groundplane
+
+----
+
+## HackRF One
+
+<img src="images/hackrf_one.jpg" height="350"><br>
+
+  * ca. 300€
+  * halbduplex
+  * 1MHz bis 6GHZ 😀
+  * SDR mit 20MS/s
+
+----
+
+## YardStick one
+
+<img src="images/yard_stick_one.jpg" height="320"><br>
+
+  * ca. 99€
+  * halbduplex
+  * High-Level RF-Interface, kein SDR (CC1111)
+  * TX 300-348 MHz, 391-464 MHz und 782-928 MHz
+  * ASK, OOK, GFSK, 2-FSK, 4-FSK, MSK
+  * max. 500kbps
+
+---
 
 ## Software
 
-  * GQRX
-  * rtl_433
-  * urh
-  * dump_1090
-  * gnuradio
+Welche Software brauche ich um diese Signale empfangen und decodieren zu können
+
+#### ❓❓❓
+
+----
+
+## GQRX
+
+<img src="images/gqrx.jpg">
+
+  * Einfacher SDR-Empfänger mit GUI
+  * Schöne Spektral- und Wasserfallansicht
+  * Demodulatoren für AM/FM/SSB
+
+Note: FM-Radio empfangen, lokaler Stick (blau)
+Todo: Antenne legen, Screenshot machen
+
+----
+
+## rtl_433
+
+Note:
+ * Thermometer und Reifen live
+ * Playback
+ * raspberry Stick
+
+----
+
+## urh
+
+Note: Thermometer manuell decodieren
+
+----
+
+## Replay-Attacke
+
+Note: yard stick one
+
+----
+
+## dump_1090
+
+Note: mit raspberry und website
+
+----
+
+## gnuradio-companion
+
+Note: FM TX
