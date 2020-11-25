@@ -165,6 +165,7 @@ Note: FM-Radio empfangen, lokaler Stick (blau)
 <img src="images/rtl_433.png" height="350">
 
   * Konsolenprogramm
+  * https://github.com/merbanan/rtl_433
   * Empfängt viele Wetterstationen und RDK-Systeme etc.
 
 Note:
@@ -176,24 +177,33 @@ Note:
 
 ## urh
 
+<img src="images/urh.png" height="350">
 
+  * "Investigate wireless protocols like a boss"
+  * https://github.com/jopohl/urh
 
 Note: Thermometer manuell decodieren
 
 ----
 
-## Replay-Attacke
+## selber coden
 
-Note: yard stick one
+  * Replay-Attacke/Spoofing mit Yard Stick One
+  * https://github.com/b00lduck/433mhz_thermo_spoof
 
 ----
 
 ## dump_1090
+
+  * ADSB-Signale empfangen und decodieren
+  * https://github.com/antirez/dump1090
 
 Note: mit raspberry und website
 
 ----
 
 ## gnuradio-companion
+
+<img src="images/gnuradio-companion.png" height="350">
 
 Note: FM TX
