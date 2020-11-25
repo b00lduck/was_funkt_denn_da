@@ -150,18 +150,22 @@ Welche Software brauche ich um diese Signale empfangen und decodieren zu können
 
 ## GQRX
 
-<img src="images/gqrx.jpg">
+<img src="images/gqrx.jpg" height="350">
 
   * Einfacher SDR-Empfänger mit GUI
   * Schöne Spektral- und Wasserfallansicht
-  * Demodulatoren für AM/FM/SSB
+  * Demodulatoren für AM/FM/SSB etc.
 
 Note: FM-Radio empfangen, lokaler Stick (blau)
-Todo: Antenne legen, Screenshot machen
 
 ----
 
 ## rtl_433
+
+<img src="images/rtl_433.png" height="350">
+
+  * Konsolenprogramm
+  * Empfängt viele Wetterstationen und RDK-Systeme etc.
 
 Note:
  * Thermometer und Reifen live
@@ -171,6 +175,8 @@ Note:
 ----
 
 ## urh
+
+
 
 Note: Thermometer manuell decodieren
 
