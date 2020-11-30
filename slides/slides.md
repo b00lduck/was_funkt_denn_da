@@ -18,6 +18,24 @@ revealOptions:
 <img alt="EM-Spektrum" src="images/EM-Spektrum.svg"><br>
 <a style="font-size: 0.5em" title="Matt, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:EM-Spektrum.svg">Quelle: https://commons.wikimedia.org/wiki/File:EM-Spektrum.svg</a>
 
+
+----
+
+## Meilensteine der Nachrichtentechnik
+
+  * 1820: Entdeckung des Elektromagnetismus
+  * 1888: 10 Meter weite Übertragung (H. Hertz)
+  * 1901: Marconi morst über den Atlantik
+  * 1906: Erste Übertragung eines Unterhaltungsprogramms zu Weihnachten
+  * 1912: Untergang der Titanic
+  * 1920er: Erste Fernsehübertragung
+  * 1950: Funkmeldeempfänger ("Pager") in USA
+  * 1953: NTSC-Farbfernsehen
+  * 1958: A-Netz (erstes analoges deutsches Funktelefonnetz)
+  * 1992: D-Netz
+  * ...
+
+
 ---
 
 ## Drahtlose Kommunikation
@@ -84,7 +102,7 @@ Welche Geräte/Ausrüstung brauche ich um diese Signale empfangen zu können
 
 ## rtl-sdr
 
-<img src="images/rtl_sdr_lowcost.jpg">
+<img src="images/rtl_sdr_lowcost.jpg" height="250"><br>
 
   * ca. 25€
   * max. Bandbreite 2.4MS/s
@@ -92,7 +110,7 @@ Welche Geräte/Ausrüstung brauche ich um diese Signale empfangen zu können
 
 ----
 
-<img src="images/rtl_sdr_premium.jpg">
+<img src="images/rtl_sdr_premium.jpg" height="350"><br>
 
   * ca. 40€
   * max. Bandbreite 3.2MS/s
@@ -102,7 +120,7 @@ Welche Geräte/Ausrüstung brauche ich um diese Signale empfangen zu können
 
 ## Antennen
 
-<img src="images/433MHz_dipole.jpg"><br>
+<img src="images/433MHz_dipole.jpg" height="350"><br>
   
   * Eigenbau 433 MHz Dipol
 
@@ -110,7 +128,7 @@ Welche Geräte/Ausrüstung brauche ich um diese Signale empfangen zu können
 
 ## Antennen
 
-<img src="images/1090MHz_groundplane.jpg" height="600px"><br>
+<img src="images/1090MHz_groundplane.jpg" height="300"><br>
 
   * Eigenbau 1090 MHz Groundplane
 
@@ -118,7 +136,7 @@ Welche Geräte/Ausrüstung brauche ich um diese Signale empfangen zu können
 
 ## HackRF One
 
-<img src="images/hackrf_one.jpg" height="350"><br>
+<img src="images/hackrf_one.jpg" height="200"><br>
 
   * ca. 300€
   * halbduplex
@@ -129,7 +147,7 @@ Welche Geräte/Ausrüstung brauche ich um diese Signale empfangen zu können
 
 ## YardStick one
 
-<img src="images/yard_stick_one.jpg" height="320"><br>
+<img src="images/yard_stick_one.jpg" height="200"><br>
 
   * ca. 99€
   * halbduplex
@@ -186,8 +204,9 @@ Note: Thermometer manuell decodieren
 
 ----
 
-## selber coden
+## selber senden?
 
+  * Bitte Gesetze beachten!
   * Replay-Attacke/Spoofing mit Yard Stick One
   * https://github.com/b00lduck/433mhz_thermo_spoof
 
