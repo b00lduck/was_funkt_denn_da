@@ -9,7 +9,7 @@ revealOptions:
 
 ---
 
-# Was funkt denn da
+# Was funkt denn da?
 
 ---
 
@@ -43,7 +43,7 @@ revealOptions:
   * Radio, TV (AM, FM, DAB, DVB)
   * Mobiltelefon (GSM, LTE etc.)
   * Wireless LAN (WiFi)
-  * Blutetooth
+  * Bluetooth
   * IoT (Zigbee, Z-Wave, WMBus, BLE...)
   * ...?
 
@@ -80,7 +80,7 @@ revealOptions:
 
 ----
 
-## Interssante Frequenzbereiche
+## Interessante Frequenzbereiche
 
 <img alt="EM-Spektrum" src="images/EM-Spektrum-arrow.svg"><br>
   * 100 MHz: FM-Radio
