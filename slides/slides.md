@@ -215,6 +215,14 @@ Note:
 
 ----
 
+### Warum packt der sein Thermometer in den Kühlschrank?
+
+oder
+
+### Gut dass es draußen kälter ist als drinnen!
+
+----
+
 ## urh
 
 <img src="images/urh.png" height="350">
