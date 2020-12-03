@@ -11,6 +11,26 @@ revealOptions:
 
 # Was funkt denn da?
 
+----
+
+<table>
+  <tr>
+    <td style="text-align: center">
+      <img src="" width="150"/><br>
+      Daniel Zerlett<br>
+      Software Architect<br>
+      <br>
+      Tütler, Maker, Hacker und
+      Funkamateur (DL1ZD)<br>
+    </td>
+    <td width="50">
+    </td>
+    <td style="text-align: center">
+      Wolfram Quester<br>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## Elektromagnetisches Spektrum
@@ -42,7 +62,9 @@ revealOptions:
 
   * Radio, TV (AM, FM, DAB, DVB)
   * Mobiltelefon (GSM, LTE etc.)
-  * Wireless LAN (WiFi)
+  * Betriebs- und Seefunk
+  * Satellitennavigation
+  * Wireless LAN (WiFi)  
   * Bluetooth
   * IoT (Zigbee, Z-Wave, WMBus, BLE...)
   * ...?
