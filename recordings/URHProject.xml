@@ -23,7 +23,7 @@
   </device_conf>
   <simulator_rx_conf/>
   <simulator_tx_conf/>
-  <signal name="yard" filename="yard.complex16s" samples_per_symbol="100" center="0.2311" center_spacing="1" tolerance="5" noise_threshold="54.30580079512685" noise_minimum="-38.74999999999999" noise_maximum="37.74999999999999" modulation_type="ASK" sample_rate="250000.0" pause_threshold="19" message_length_divisor="1" bits_per_symbol="1">
+  <signal name="yard" filename="yard.complex16s" samples_per_symbol="100" center="0.2311" center_spacing="1" tolerance="5" noise_threshold="54.30580079512685" noise_minimum="-38.74999999999999" noise_maximum="37.74999999999999" modulation_type="ASK" sample_rate="250000.0" pause_threshold="19" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
     <messages/>
   </signal>
   <open_file name="yard.complex16s" position="0"/>
@@ -60,7 +60,7 @@
       <message message_type_id="b09ded84-a580-4a8d-a9ce-0f489cc696aa" modulator_index="0" pause="2000" timestamp="1606313973.0685353" decoding_index="0"/>
       <message message_type_id="b09ded84-a580-4a8d-a9ce-0f489cc696aa" modulator_index="0" pause="2000" timestamp="1606313973.0685785" decoding_index="0"/>
       <message message_type_id="b09ded84-a580-4a8d-a9ce-0f489cc696aa" modulator_index="0" pause="2000" timestamp="1606313973.0686216" decoding_index="0"/>
-      <message message_type_id="b09ded84-a580-4a8d-a9ce-0f489cc696aa" modulator_index="0" pause="2000" timestamp="1606313973.0686646" decoding_index="0"/>
+      <message message_type_id="96e4e534-134f-4b02-81b7-0cfc9159d898" modulator_index="0" pause="2000" timestamp="1606313973.0686646" decoding_index="5"/>
       <message message_type_id="b09ded84-a580-4a8d-a9ce-0f489cc696aa" modulator_index="0" pause="2000" timestamp="1606313973.0687072" decoding_index="0"/>
       <message message_type_id="b09ded84-a580-4a8d-a9ce-0f489cc696aa" modulator_index="0" pause="2000" timestamp="1606313973.0687501" decoding_index="0"/>
       <message message_type_id="b09ded84-a580-4a8d-a9ce-0f489cc696aa" modulator_index="0" pause="2000" timestamp="1606313973.0687933" decoding_index="0"/>
