@@ -16,7 +16,6 @@ revealOptions:
 <table>
   <tr>
     <td style="text-align: center">
-      <img src="" width="150"/><br>
       Daniel Zerlett<br>
       Software Architect<br>
       <br>
