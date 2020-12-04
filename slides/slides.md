@@ -20,13 +20,16 @@ revealOptions:
       Daniel Zerlett<br>
       Software Architect<br>
       <br>
-      Tütler, Maker, Hacker und
+      Tüftler, Maker, Hacker und
       Funkamateur (DL1ZD)<br>
     </td>
     <td width="50">
     </td>
     <td style="text-align: center">
       Wolfram Quester<br>
+      Physiker, Product Owner, Scrum Master </br>
+      <br>
+      Segler, Bastler, Mädchen für alles
     </td>
   </tr>
 </table>
@@ -212,6 +215,14 @@ Note:
  * Thermometer und Reifen live
  * Playback
  * raspberry Stick
+
+----
+
+### Warum packt der sein Thermometer in den Kühlschrank?
+
+oder
+
+### Gut dass es draußen kälter ist als drinnen!
 
 ----
 
